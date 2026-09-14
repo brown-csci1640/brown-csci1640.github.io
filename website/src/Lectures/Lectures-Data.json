@@ -1,51 +1,42 @@
 [
   {
-    "Date": "Sep 8",
+    "Date": "Sep 14",
     "Topic": "Course Overview & Logistics: Big Picture – AI vs. Sec Chart",
     "Reading": "-",
-    "Slides": "https://drive.google.com/file/d/1EoJY1bDuOZp6lhorTQK9aNN26-sVQSZD/view?usp=sharing",
+    "Slides": "",
     "Quiz": "",
-    "Recording": "https://brown.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=2ff92f09-f094-4ecd-b82c-b3520167ab09",
+    "Recording": "",
     "Homework": ""
   },
   {
-    "Date": "Sep 15",
+    "Date": "Sep 21",
     "Topic": "Security - Crypto I",
     "Reading": "-",
-    "Slides": "https://drive.google.com/file/d/12si7Byre5Rls-C8-kJov8Sg7L_Omtm8u/view?usp=sharing",
+    "Slides": "",
     "Quiz": "",
-    "Recording": "https://brown.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=9aa05449-a529-4475-a77b-b359017f7487&query=1640",
+    "Recording": "",
     "Homework": ""
   },
   {
-    "Date": "Sep 22",
+    "Date": "Sep 28",
     "Topic": "Security - Crypto II",
     "Reading": "-",
-    "Slides": "https://drive.google.com/file/d/1g9GBh3onfirBtxnhR9W1xXd8OqpxVCrv/view?usp=sharing",
+    "Slides": "",
     "Quiz": "",
-    "Recording": "https://brown.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=e0a468b2-980e-4a5d-9ee9-b360016cb704",
+    "Recording": "",
     "Homework": ""
   },
   {
-    "Date": "Sep 29",
+    "Date": "Oct 5",
     "Topic": "AI and Machine Learning",
     "Reading": "-",
-    "Slides": "https://drive.google.com/file/d/1zY4HE_ZEixIPsiMsneYmzvWa2hHffEgQ/view?usp=sharing",
+    "Slides": "",
     "Quiz": "",
-    "Recording": "https://brown.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=6666740d-ef6c-44b5-9132-b367017df29e",
+    "Recording": "",
     "Homework": ""
   },
   {
-    "Date": "Oct 6",
-    "Topic": "Security in Machine Learning I: Outsourced ML, Federated Learning, MPC & Homomorphic Encryption",
-    "Reading": "https://drive.google.com/file/d/13rm4ebmepFQgGAdEU55OyA0OmZW-TcEr/view?usp=sharing",
-    "Slides": "https://drive.google.com/file/d/1ZFsJHDK8xgQHN7VYU6MjUakwVS3bZaq6/view?usp=sharing",
-    "Quiz": "",
-    "Recording": "https://brown.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=52617a9b-852b-4bb6-8da1-b36f00026856&query=ai%20and%20security",
-    "Homework": "https://drive.google.com/file/d/1fdJ8gdY9wmJCBCVxUTiz07JgJ_rE-bj3/view?usp=sharing"
-  },
-  {
-    "Date": "Oct 13",
+    "Date": "Oct 12",
     "Topic": "Indigenous Peoples’ Day – No class",
     "Reading": "-",
     "Slides": "",
@@ -54,61 +45,70 @@
     "Homework": ""
   },
   {
-    "Date": "Oct 20",
+    "Date": "Oct 19",
+    "Topic": "Security in Machine Learning I: Outsourced ML, Federated Learning, MPC & Homomorphic Encryption",
+    "Reading": "-",
+    "Slides": "",
+    "Quiz": "",
+    "Recording": "",
+    "Homework": ""
+  },
+  {
+    "Date": "Oct 26",
     "Topic": "Security in Machine Learning II: Differential Privacy & Crypto-Enhanced NNs",
     "Reading": "-",
     "Slides": "",
     "Quiz": "",
-    "Recording": "https://brown.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=3ae2ac0b-9f3e-4ada-9c3d-b37c016ff044",
+    "Recording": "",
     "Homework": ""
   },
   {
-    "Date": "Oct 27",
+    "Date": "Nov 2",
     "Topic": "Adversarial Machine Learning I: Poisoning Attacks & Evasion Attacks",
-    "Reading": "https://drive.google.com/file/d/1vH7DnaNLtvGXg3IA-Ck2eVJ_mW0n4QAC/view?usp=sharing",
-    "Slides": "https://drive.google.com/file/d/1JXPhSxq-xqbUEx5TCeW0QrcrWWb5w7Is/view?usp=sharing",
+    "Reading": "-",
+    "Slides": "",
     "Quiz": "",
-    "Recording": "https://brown.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=117620a5-e434-4b8b-b0a0-b383016cab16",
+    "Recording": "",
     "Homework": ""
   },
   {
-    "Date": "Nov 3",
+    "Date": "Nov 9",
     "Topic": "Adversarial Machine Learning II: Membership Inference Attacks & Model Inversion Attacks",
     "Reading": "-",
-    "Slides": "https://drive.google.com/file/d/1ttcXqgsAGxW5B3tBpIbNxMLNCdwKsq4a/view?usp=sharing",
+    "Slides": "",
     "Quiz": "",
-    "Recording": "https://brown.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=380438eb-076b-4347-910f-b38a017a47e5",
+    "Recording": "",
     "Homework": ""
   },
   {
-    "Date": "Nov 10",
+    "Date": "Nov 16",
     "Topic": "AI for Cyber Defense: Information-based Security, SIEM, Threat Detection",
     "Reading": "-",
-    "Slides": "https://drive.google.com/file/d/13bDldqOHV9WjYIDCF9lJIJSDL3I2ouHb/view?usp=sharing",
+    "Slides": "",
     "Quiz": "",
     "Recording": "",
     "Homework": ""
   },
   {
-    "Date": "Nov 17",
+    "Date": "Nov 23",
     "Topic": "AI for Cyber Attacks: Data-Driven Brute-Force Attacks, GANs, Deepfakes",
-    "Reading": "https://drive.google.com/file/d/13o0hM72-fgtWenlgj_gAr7f8DY8t8lCx/view?usp=sharing",
-    "Slides": "https://drive.google.com/file/d/13bDldqOHV9WjYIDCF9lJIJSDL3I2ouHb/view?usp=sharing",
+    "Reading": "-",
+    "Slides": "",
     "Quiz": "",
-    "Recording": "https://brown.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=8204fb7a-d86e-482c-9f5e-b39801880ddc",
+    "Recording": "",
     "Homework": ""
   },
   {
-    "Date": "Nov 24",
+    "Date": "Nov 30",
     "Topic": "Security Issues in AI Technologies I: LLMs, Chatbots, Smart Speakers, Autonomous Cars",
     "Reading": "-",
-    "Slides": "https://drive.google.com/file/d/1Q80icozZVBWlHIPSUZvUSneoK_s_Uarp/view?usp=sharing",
+    "Slides": "",
     "Quiz": "",
     "Recording": "",
     "Homework": ""
   },
   {
-    "Date": "Dec 1",
+    "Date": "Dec 7",
     "Topic": "Security Issues in AI Technologies II: Super Intelligence, Types of Rationality, AI Safety, Alignment & Transparency",
     "Reading": "-",
     "Slides": "",
@@ -117,7 +117,7 @@
     "Homework": ""
   },
   {
-    "Date": "Dec 8",
+    "Date": "Dec 14",
     "Topic": "Final Project Presentations (Reading Period)",
     "Reading": "-",
     "Slides": "",
@@ -126,7 +126,7 @@
     "Homework": ""
   },
   {
-    "Date": "Dec 15",
+    "Date": "Dec 21",
     "Topic": "Final Project Presentations (Exam Period)",
     "Reading": "-",
     "Slides": "",
