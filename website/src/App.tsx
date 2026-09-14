@@ -71,7 +71,7 @@ function App() {
         <Route path="/resources" element={<Resources />} />
       </Routes>
 
-      <div className="footer">© BROWN UNIVERSITY 2025 CS1640 STAFF</div>
+      <div className="footer">© BROWN UNIVERSITY 2026 CS1640 STAFF</div>
     </div>
   );
 }

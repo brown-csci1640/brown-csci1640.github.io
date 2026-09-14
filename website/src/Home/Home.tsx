@@ -52,7 +52,7 @@ export default function Home() {
               {" "}
               Syllabus: See{" "}
               <a
-                href="https://drive.google.com/file/d/1nDKjcvA7rTVfZoVe3IL1CNjMS_dNySOB/view?usp=sharing"
+                href="https://drive.google.com/file/d/1ocE1We8wSSgUtDDiCNucnzUYpxuA3zRG/view?usp=sharing"
                 target="_blank"
                 rel="noreferrer"
               >
