@@ -28,25 +28,25 @@ export default function Staff() {
       <h4>HTA</h4>
       <div className="center">
         <StaffCard
-          name="Alex Cueva"
+          name="Yen Chu"
           pronouns="he/him/his"
-          email="alexander_cueva@brown.edu"
+          email="yen_chu@brown.edu"
           image={alex}
           item={alex2}
-          hours="Hours: Thurs. 4-5pm -- CIT 143"
+          hours="Hours: TBD"
         />
       </div>
 
       <h4>UTA</h4>
 
       <div className="center">
-        <StaffCard
-          name="Keyan Rahimi"
+        <StaffCard  
+          name="Kevin Zhu"
           pronouns="he/him/his"
-          email="keyan_rahimi@brown.edu"
+          email="kevin_t_zhu@brown.edu"
           image={keyan}
           item={keyan2}
-          hours="Hours: Tues. 4-5pm -- CIT 143"
+          hours="Hours: TBD"
         />
       </div>
     </div>
