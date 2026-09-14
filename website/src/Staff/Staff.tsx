@@ -3,11 +3,13 @@ import StaffCard from "./StaffCard";
 import "./Staff.css";
 
 import nikos from "./photos/actual/nikos.jpg";
-import nikos2 from "./photos/item/alex.jpg";
+import nikos2 from "./photos/item/nikos2.jpg";
+import yen from "./photos/actual/yen.jpeg";
+import kevin from "./photos/actual/kevin_temp.jpeg";
 import alex from "./photos/actual/alex.jpg";
-import alex2 from "./photos/item/alex.jpg";
+import alex2 from "./photos/item/nikos2.jpg";
 import keyan from "./photos/actual/keyan.jpg";
-import keyan2 from "./photos/item/keyan2.jpg";
+import keyan2 from "./photos/item/nikos2.jpg";
 
 export default function Staff() {
   return (
@@ -31,7 +33,7 @@ export default function Staff() {
           name="Yen Chu"
           pronouns="he/him/his"
           email="yen_chu@brown.edu"
-          image={alex}
+          image={yen}
           item={alex2}
           hours="Hours: TBD"
         />
@@ -40,11 +42,11 @@ export default function Staff() {
       <h4>UTA</h4>
 
       <div className="center">
-        <StaffCard  
+        <StaffCard
           name="Kevin Zhu"
           pronouns="he/him/his"
           email="kevin_t_zhu@brown.edu"
-          image={keyan}
+          image={kevin}
           item={keyan2}
           hours="Hours: TBD"
         />
