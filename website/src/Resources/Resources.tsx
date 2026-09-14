@@ -10,25 +10,36 @@ interface Reading {
   link: string;
 }
 
+// Set to true to make the reading titles clickable again.
+const LINKS_ACTIVE = false;
+
+const readingStyle: React.CSSProperties = {
+  marginRight: "8px",
+  fontFamily: "'Fira Code', 'Consolas', 'Courier New', monospace",
+  fontWeight: "bold",
+};
+
 export default function Resources() {
   const renderReadings = (readings?: Reading[]) => {
     if (!readings || readings.length === 0) return null;
 
-    return readings.map((reading, idx) => (
-      <a
-        key={idx}
-        href={reading.link}
-        target="_blank"
-        rel="noreferrer"
-        style={{
-          marginRight: "8px",
-          fontFamily: "'Fira Code', 'Consolas', 'Courier New', monospace",
-          fontWeight: "bold",
-        }}
-      >
-        {reading.title}
-      </a>
-    ));
+    return readings.map((reading, idx) =>
+      LINKS_ACTIVE && reading.link ? (
+        <a
+          key={idx}
+          href={reading.link}
+          target="_blank"
+          rel="noreferrer"
+          style={readingStyle}
+        >
+          {reading.title}
+        </a>
+      ) : (
+        <span key={idx} style={readingStyle}>
+          {reading.title}
+        </span>
+      )
+    );
   };
 
   let counter = 0;
