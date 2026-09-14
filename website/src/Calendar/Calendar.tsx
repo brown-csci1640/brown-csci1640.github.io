@@ -9,7 +9,7 @@ export default function Calendar() {
       <h3>Calendar</h3>
       <Container className="frame-container">
         <iframe
-          src="https://calendar.google.com/calendar/embed?src=c_7e3fd253487a8bec1650fa13b6213fe0f37de8e3548faca64dda380267bf9cfd%40group.calendar.google.com&ctz=America%2FNew_York&mode=WEEKg"
+          src="https://calendar.google.com/calendar/embed?src=c_7e3fd253487a8bec1650fa13b6213fe0f37de8e3548faca64dda380267bf9cfd%40group.calendar.google.com&ctz=America%2FNew_York&mode=WEEK"
           style={{ border: 0 }}
           width="100%"
           height="100%"
