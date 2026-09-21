@@ -57,8 +57,18 @@ export default function Resources() {
             <Table bordered>
               <tbody>
                 {LectureReview.map((readingGroup: Reading | {}, idx) => {
-                  if (Object.keys(readingGroup).length === 0) {
+                  const keys = Object.keys(readingGroup);
+                  if (keys.length === 0 || (keys.length === 1 && "link" in readingGroup)) {
                     counter++;
+                    const headingText = `Reading Set ${counter}`;
+                    const headingLink = (readingGroup as any).link;
+                    const headingContent = headingLink ? (
+                      <a href={headingLink} target="_blank" rel="noreferrer">
+                        {headingText}
+                      </a>
+                    ) : (
+                      headingText
+                    );
                     return (
                       <tr key={idx}>
                         <td
@@ -70,7 +80,7 @@ export default function Resources() {
                             fontWeight: "bold",
                           }}
                         >
-                          Reading Set {counter}
+                          {headingContent}
                         </td>
                       </tr>
                     );
