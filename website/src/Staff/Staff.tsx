@@ -6,9 +6,7 @@ import nikos from "./photos/actual/nikos.jpg";
 import nikos2 from "./photos/item/nikos2.jpg";
 import yen from "./photos/actual/yen.jpeg";
 import kevin from "./photos/actual/kevin_temp.jpeg";
-import alex from "./photos/actual/alex.jpg";
 import alex2 from "./photos/item/nikos2.jpg";
-import keyan from "./photos/actual/keyan.jpg";
 import keyan2 from "./photos/item/nikos2.jpg";
 
 export default function Staff() {
