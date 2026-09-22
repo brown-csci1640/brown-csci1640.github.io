@@ -47,7 +47,7 @@ export default function Resources() {
 
   return (
     <div className="resources">
-      <h3>Additional Readings</h3>
+      <h3>Weekly Readings</h3>
       <div className="terminal-outline">
         <div className="image-group">
           <img src={square} style={{ height: "30px" }} alt="" />
