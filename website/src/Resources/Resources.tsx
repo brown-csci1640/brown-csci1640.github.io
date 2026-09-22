@@ -3,15 +3,23 @@ import { Container, Table } from "react-bootstrap";
 import square from "./squareIcon.png";
 import xicon from "./closeIcon.png";
 import "./Resources.css";
-import LectureReview from "./AdditionalReadings.json";
+import readingSetsData from "./AdditionalReadings.json";
 
 interface Reading {
   title: string;
-  link: string;
+  link?: string;
 }
 
-// Set to true to make the reading titles clickable again.
-const LINKS_ACTIVE = false;
+interface ReadingSet {
+  title: string;
+  // A set (heading + all its readings) is completely omitted from the page until this is true.
+  released: boolean;
+  // Whether this set's reading titles render as clickable links.
+  linksActive: boolean;
+  readings: Reading[];
+}
+
+const readingSets = readingSetsData as ReadingSet[];
 
 const readingStyle: React.CSSProperties = {
   marginRight: "8px",
@@ -20,29 +28,22 @@ const readingStyle: React.CSSProperties = {
 };
 
 export default function Resources() {
-  const renderReadings = (readings?: Reading[]) => {
-    if (!readings || readings.length === 0) return null;
-
-    return readings.map((reading, idx) =>
-      LINKS_ACTIVE && reading.link ? (
-        <a
-          key={idx}
-          href={reading.link}
-          target="_blank"
-          rel="noreferrer"
-          style={readingStyle}
-        >
-          {reading.title}
-        </a>
-      ) : (
-        <span key={idx} style={readingStyle}>
-          {reading.title}
-        </span>
-      )
+  const renderReading = (reading: Reading, linksActive: boolean, key: number) =>
+    linksActive && reading.link ? (
+      <a
+        key={key}
+        href={reading.link}
+        target="_blank"
+        rel="noreferrer"
+        style={readingStyle}
+      >
+        {reading.title}
+      </a>
+    ) : (
+      <span key={key} style={readingStyle}>
+        {reading.title}
+      </span>
     );
-  };
-
-  let counter = 0;
 
   return (
     <div className="resources">
@@ -56,23 +57,12 @@ export default function Resources() {
           <Container>
             <Table bordered>
               <tbody>
-                {LectureReview.map((readingGroup: Reading | {}, idx) => {
-                  const keys = Object.keys(readingGroup);
-                  if (keys.length === 0 || (keys.length === 1 && "link" in readingGroup)) {
-                    counter++;
-                    const headingText = `Reading Set ${counter}`;
-                    const headingLink = (readingGroup as any).link;
-                    const headingContent = headingLink ? (
-                      <a href={headingLink} target="_blank" rel="noreferrer">
-                        {headingText}
-                      </a>
-                    ) : (
-                      headingText
-                    );
-                    return (
-                      <tr key={idx}>
+                {readingSets
+                  .filter((set) => set.released)
+                  .map((set, setIdx) => (
+                    <React.Fragment key={setIdx}>
+                      <tr>
                         <td
-                          colSpan={1}
                           style={{
                             textAlign: "center",
                             fontFamily:
@@ -80,20 +70,16 @@ export default function Resources() {
                             fontWeight: "bold",
                           }}
                         >
-                          {headingContent}
+                          {set.title}
                         </td>
                       </tr>
-                    );
-                  }
-
-                  const { title, link } = readingGroup as Reading;
-
-                  return (
-                    <tr key={idx}>
-                      <td>{renderReadings([{ title, link }])}</td>
-                    </tr>
-                  );
-                })}
+                      {set.readings.map((reading, readingIdx) => (
+                        <tr key={readingIdx}>
+                          <td>{renderReading(reading, set.linksActive, readingIdx)}</td>
+                        </tr>
+                      ))}
+                    </React.Fragment>
+                  ))}
               </tbody>
             </Table>
           </Container>

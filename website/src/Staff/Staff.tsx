@@ -25,7 +25,7 @@ export default function Staff() {
         />
       </div>
 
-      <h4>Grad TA</h4>
+      <h4>5th-Year TAs</h4>
       <div className="center">
         <StaffCard
           name="Yen Chu"
@@ -35,11 +35,6 @@ export default function Staff() {
           item={alex2}
           hours="Hours: TBD"
         />
-      </div>
-
-      <h4>Grad TA</h4>
-
-      <div className="center">
         <StaffCard
           name="Kevin Zhu"
           pronouns="he/him/his"

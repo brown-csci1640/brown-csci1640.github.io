@@ -1,43 +1,65 @@
 [
   {
-    "link": "https://drive.google.com/drive/folders/1vMcMPzTYvyYBTNisPuwRfGT3vOGO1F4a?usp=drive_link"
+    "title": "Reading Set 1",
+    "released": true,
+    "linksActive": true,
+    "readings": [
+      {
+        "title": "Alan Turing - Computing Machinery & Intelligence",
+        "link": "https://drive.google.com/file/d/1Xfl9bGGk0WFpd8rbzv7zE0V_SdD2_FZ9/view?usp=sharing"
+      },
+      {
+        "title": "Claude Shannon - Communication Theory of Secret Systems",
+        "link": "https://drive.google.com/file/d/1OF5EXGhG8KLwSh8pXBvA5qRj2-_jjQgM/view?usp=sharing"
+      },
+      {
+        "title": "Ron Rivest - Cryptography and Machine Learning",
+        "link": "https://drive.google.com/file/d/1YAMpYN9MSGj_2kHJ_8ivgzySheGkHQhx/view?usp=drive_link"
+      }
+    ]
   },
   {
-    "title": "Alan Turing - Computing Machinery & Intelligence",
-    "link": "https://drive.google.com/file/d/1Xfl9bGGk0WFpd8rbzv7zE0V_SdD2_FZ9/view?usp=sharing"
+    "title": "Reading Set 2",
+    "released": false,
+    "linksActive": false,
+    "readings": [
+      {
+        "title": "PillarBox: Combating Next-Generation Malware with Fast Forward-Secure Logging",
+        "link": "https://drive.google.com/file/d/17CI6f-lJ4JOzrUrEBFCiupG9IJjcHia9/view?usp=sharing"
+      },
+      {
+        "title": "Private Hierarchical Clustering and Efficient Approximation",
+        "link": "https://drive.google.com/file/d/1jjRaXfPvGIj-u2LRcjQ-E2rlZYo_soB-/view?usp=sharing"
+      }
+    ]
   },
   {
-    "title": "Claude Shannon - Communication Theory of Secret Systems",
-    "link": "https://drive.google.com/file/d/1OF5EXGhG8KLwSh8pXBvA5qRj2-_jjQgM/view?usp=sharing"
-  },
-  {},
-  {
-    "title": "PillarBox: Combating Next-Generation Malware with Fast Forward-Secure Logging",
-    "link": "https://drive.google.com/file/d/17CI6f-lJ4JOzrUrEBFCiupG9IJjcHia9/view?usp=sharing"
-  },
-  {
-    "title": "Private Hierarchical Clustering and Efficient Approximation",
-    "link": "https://drive.google.com/file/d/1jjRaXfPvGIj-u2LRcjQ-E2rlZYo_soB-/view?usp=sharing"
-  },
-  {},
-  {
-    "title": "PassGAN: A Deep Learning Approach for Password Guessing",
-    "link": "https://drive.google.com/file/d/1UaYTXph-E78lRP-KTcd3AMcmxbecMbNC/view?usp=sharing"
-  },
-  {
-    "title": "Interpretable Probabilistic Password Strength Meters via Deep Learning",
-    "link": "https://drive.google.com/file/d/1lGeqoNN0Z2nhDAU9WHd3XiYEar76Uemi/view?usp=sharing"
-  },
-  {
-    "title": "Reducing Bias in Modeling Real-world Password Strength via Deep Learning and Dynamic Dictionaries",
-    "link": "https://drive.google.com/file/d/12ykqiLtM_telRqMWmoDZsTN_XPLOuqp1/view?usp=sharing"
+    "title": "Reading Set 3",
+    "released": false,
+    "linksActive": false,
+    "readings": [
+      {
+        "title": "PassGAN: A Deep Learning Approach for Password Guessing",
+        "link": "https://drive.google.com/file/d/1UaYTXph-E78lRP-KTcd3AMcmxbecMbNC/view?usp=sharing"
+      },
+      {
+        "title": "Interpretable Probabilistic Password Strength Meters via Deep Learning",
+        "link": "https://drive.google.com/file/d/1lGeqoNN0Z2nhDAU9WHd3XiYEar76Uemi/view?usp=sharing"
+      },
+      {
+        "title": "Reducing Bias in Modeling Real-world Password Strength via Deep Learning and Dynamic Dictionaries",
+        "link": "https://drive.google.com/file/d/12ykqiLtM_telRqMWmoDZsTN_XPLOuqp1/view?usp=sharing"
+      },
+      {
+        "title": "Improving Password Guessing via Representation Learning",
+        "link": "https://drive.google.com/file/d/1OXcftoOzQHWIDKOFkMQXAHPEVOisAklV/view?usp=sharing"
+      }
+    ]
   },
   {
-    "title": "Improving Password Guessing via Representation Learning",
-    "link": "https://drive.google.com/file/d/1OXcftoOzQHWIDKOFkMQXAHPEVOisAklV/view?usp=sharing"
-  },
-  {},
-  {
-    "title": "...TBD..."
+    "title": "Reading Set 4",
+    "released": false,
+    "linksActive": false,
+    "readings": []
   }
 ]
