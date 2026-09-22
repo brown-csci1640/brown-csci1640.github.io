@@ -32,6 +32,16 @@
   width: 78vw;
 }
 
+.resources a {
+  color: #0066cc;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.resources a:hover {
+  color: #0052a3;
+}
+
 @media (max-width: 767.98px) {
   .resources .terminal-outline {
     margin: 0;
