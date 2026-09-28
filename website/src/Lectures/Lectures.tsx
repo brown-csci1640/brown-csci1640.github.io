@@ -37,9 +37,7 @@ export default function Lectures() {
       >
         Quiz
       </a>
-    ) : (
-      "Quiz"
-    );
+    ) : null;
 
     const recordingLink = lecture.Recording ? (
       <a href={lecture.Recording} target="_blank" rel="noreferrer">
@@ -85,13 +83,20 @@ export default function Lectures() {
         ""
       );
 
+    const links = [slidesLink, recordingLink, quizLink].filter(Boolean);
+
     return (
       <tr>
         <td>{lecture.Date}</td>
         <td>{lecture.Topic}</td>
         <td>{readings}</td>
         <td>
-          {slidesLink} | {recordingLink} | {quizLink}
+          {links.map((link, idx) => (
+            <span key={idx}>
+              {idx > 0 && " | "}
+              {link}
+            </span>
+          ))}
         </td>
         <td>{homework}</td>
       </tr>
