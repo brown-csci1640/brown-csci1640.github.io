@@ -33,7 +33,7 @@ export default function Staff() {
           email="yen_chu@brown.edu"
           image={yen}
           item={alex2}
-          hours="Hours: TBD"
+          hours="Hours: Wed 2pm-3pm, Virtual"
         />
         <StaffCard
           name="Kevin Zhu"
@@ -41,7 +41,7 @@ export default function Staff() {
           email="kevin_t_zhu@brown.edu"
           image={kevin}
           item={keyan2}
-          hours="Hours: TBD"
+          hours="Hours: Friday 9am-10am, TBD"
         />
       </div>
     </div>
