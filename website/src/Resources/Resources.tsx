@@ -61,7 +61,7 @@ export default function Resources() {
                   .filter((set) => set.released)
                   .map((set, setIdx) => (
                     <React.Fragment key={setIdx}>
-                      <tr>
+                      <tr id={set.title.toLowerCase().replace(/\s+/g, "-")}>
                         <td
                           style={{
                             textAlign: "center",
