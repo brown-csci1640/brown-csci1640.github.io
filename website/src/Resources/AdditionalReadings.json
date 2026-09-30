@@ -24,15 +24,15 @@
     "linksActive": true,
     "readings": [
       {
-        "title": "Reading 1: CryptoNets: Applying Neural Networks to Encrypted Data",
+        "title": "Reading 1 - CryptoNets: Applying Neural Networks to Encrypted Data",
         "link": "https://drive.google.com/file/d/1rZuT_GPoUR8zFB1QSED0is8rLb7QkdFb/view?usp=sharing"
       },
       {
-        "title": "Reading 2: Deep Learning with Differential Privacy",
+        "title": "Reading 2 - Deep Learning with Differential Privacy",
         "link": "https://drive.google.com/file/d/12_wAyOelgmNOAvjo6SN8_7B296qsdLyr/view?usp=sharing"
       },
       {
-        "title": "Reading 3: Extracting Training Data from LLMs",
+        "title": "Reading 3 - Extracting Training Data from LLMs",
         "link": "https://drive.google.com/file/d/1u5QOyfMrsvMAqYFnOSGPq29wT3dH8yGe/view?usp=sharing"
       }
     ]
