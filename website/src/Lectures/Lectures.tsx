@@ -23,7 +23,7 @@ export default function Lectures() {
   const parseLectures = (lecture: Lec) => {
 
     const slidesLink = lecture.Slides ? (
-      <a href={lecture.Slides} target="_blank" rel="noreferrer">
+      <a href={lecture.Slides}>
         Slides
       </a>
     ) : (
@@ -33,15 +33,13 @@ export default function Lectures() {
     const quizLink = lecture.Quiz ? (
       <a
         href={`${process.env.PUBLIC_URL}/${lecture.Quiz}`}
-        target="_blank"
-        rel="noreferrer"
       >
         Quiz
       </a>
     ) : null;
 
     const recordingLink = lecture.Recording ? (
-      <a href={lecture.Recording} target="_blank" rel="noreferrer">
+      <a href={lecture.Recording}>
         Recording
       </a>
     ) : (
@@ -55,12 +53,8 @@ export default function Lectures() {
             <a
               key={idx}
               href={reading.trim()}
-              target="_blank"
-              rel="noreferrer"
               style={{
                 marginRight: "8px",
-                fontFamily: "'Fira Code', 'Consolas', 'Courier New', monospace",
-                fontWeight: "bold",
               }}
             >
               {lecture.ReadingLabel || idx + 1}
@@ -71,8 +65,6 @@ export default function Lectures() {
       lecture.Homework && lecture.Homework.trim() !== "" ? (
         <a
           href={lecture.Homework}
-          target="_blank"
-          rel="noreferrer"
           style={{
             fontFamily: "'Fira Code', 'Consolas', 'Courier New', monospace",
             fontWeight: "bold",
