@@ -9,9 +9,26 @@ interface StaffCardProps {
   item?: string;
   email: string;
   hours?: string;
+  virtualLink?: string;
 }
 
 export default function StaffCard(props: StaffCardProps) {
+  const renderHours = () => {
+    if (!props.hours) return null;
+    if (!props.virtualLink) return props.hours;
+
+    const parts = props.hours.split("Virtual");
+    return (
+      <>
+        {parts[0]}
+        <a href={props.virtualLink} target="_blank" rel="noreferrer">
+          Virtual
+        </a>
+        {parts[1]}
+      </>
+    );
+  };
+
   return (
     <div className="staff-card">
       <Card style={{ width: "20rem" }}>
@@ -31,7 +48,7 @@ export default function StaffCard(props: StaffCardProps) {
           <Card.Title>{props.name}</Card.Title>
           <Card.Subtitle>
             {" "}
-            {props.pronouns} <br /> {props.hours}
+            {props.pronouns} <br /> {renderHours()}
           </Card.Subtitle>
           {/* <Card.Subtitle>{props.hours}</Card.Subtitle> */}
           <Card.Link href={props.email}>{props.email}</Card.Link>

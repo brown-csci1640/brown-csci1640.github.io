@@ -34,6 +34,7 @@ export default function Staff() {
           image={yen}
           item={alex2}
           hours="Hours: Wed 2pm-3pm, Virtual"
+          virtualLink="https://brown.zoom.us/j/3603513810"
         />
         <StaffCard
           name="Kevin Zhu"

@@ -11,6 +11,7 @@ interface Lec {
   Date: string;
   Topic: string;
   Reading: string;
+  ReadingLabel?: string;
   Slides: string;
   Quiz: string;
   Recording: string;
@@ -62,7 +63,7 @@ export default function Lectures() {
                 fontWeight: "bold",
               }}
             >
-              {idx + 1}
+              {lecture.ReadingLabel || idx + 1}
             </a>
           ));
 
@@ -122,7 +123,7 @@ export default function Lectures() {
                   <th>Topic</th>
                   <th>Readings</th>
                   <th>Links</th>
-                  <th>Homework</th>
+                  <th>Assignments</th>
                 </tr>
               </thead>
               <tbody>{LectureData.map(parseLectures)}</tbody>
