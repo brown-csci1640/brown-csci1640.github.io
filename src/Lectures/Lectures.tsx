@@ -32,7 +32,11 @@ export default function Lectures() {
 
     const quizLink = lecture.Quiz ? (
       <a
-        href={`${process.env.PUBLIC_URL}/${lecture.Quiz}`}
+        href={
+          lecture.Quiz.startsWith("http")
+            ? lecture.Quiz
+            : `${process.env.PUBLIC_URL}/${lecture.Quiz}`
+        }
       >
         Quiz
       </a>
@@ -72,11 +76,10 @@ export default function Lectures() {
         >
           HW
         </a>
-      ) : (
-        ""
-      );
+      ) : null;
 
-    const links = [slidesLink, recordingLink, quizLink].filter(Boolean);
+    const links = [slidesLink, recordingLink];
+    const assignments = [homework, quizLink].filter(Boolean);
 
     return (
       <tr>
@@ -91,7 +94,14 @@ export default function Lectures() {
             </span>
           ))}
         </td>
-        <td>{homework}</td>
+        <td>
+          {assignments.map((assignment, idx) => (
+            <span key={idx}>
+              {idx > 0 && " | "}
+              {assignment}
+            </span>
+          ))}
+        </td>
       </tr>
     );
   };
