@@ -37,6 +37,10 @@ export default function Lectures() {
             ? lecture.Quiz
             : `${process.env.PUBLIC_URL}/${lecture.Quiz}`
         }
+        style={{
+          fontFamily: "'Fira Code', 'Consolas', 'Courier New', monospace",
+          fontWeight: "bold",
+        }}
       >
         Quiz
       </a>
