@@ -37,10 +37,6 @@ export default function Lectures() {
             ? lecture.Quiz
             : `${process.env.PUBLIC_URL}/${lecture.Quiz}`
         }
-        style={{
-          fontFamily: "'Fira Code', 'Consolas', 'Courier New', monospace",
-          fontWeight: "bold",
-        }}
       >
         Quiz
       </a>
@@ -73,10 +69,6 @@ export default function Lectures() {
       lecture.Homework && lecture.Homework.trim() !== "" ? (
         <a
           href={lecture.Homework}
-          style={{
-            fontFamily: "'Fira Code', 'Consolas', 'Courier New', monospace",
-            fontWeight: "bold",
-          }}
         >
           HW
         </a>
