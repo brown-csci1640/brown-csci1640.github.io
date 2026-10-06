@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/static/css/main.f78a9b8a.css",
-    "main.js": "/static/js/main.3d953923.js",
-    "static/js/453.148b0809.chunk.js": "/static/js/453.148b0809.chunk.js",
+    "main.css": "/static/css/main.cf4b7f52.css",
+    "main.js": "/static/js/main.9b8b7359.js",
+    "static/js/453.bb828c5d.chunk.js": "/static/js/453.bb828c5d.chunk.js",
     "static/media/Pixely.png": "/static/media/Pixely.b1b5a3e087f77e896ba1.png",
     "static/media/yen.jpeg": "/static/media/yen.ec09b13bafbe01fe91f4.jpeg",
     "static/media/Menlo-Regular.woff": "/static/media/Menlo-Regular.02bb017483128058c0d0.woff",
@@ -10,12 +10,12 @@
     "static/media/kevin_temp.jpeg": "/static/media/kevin_temp.cb5511c8e531e684545e.jpeg",
     "static/media/nikos.jpg": "/static/media/nikos.057df1923223e8a9ce31.jpg",
     "index.html": "/index.html",
-    "main.f78a9b8a.css.map": "/static/css/main.f78a9b8a.css.map",
-    "main.3d953923.js.map": "/static/js/main.3d953923.js.map",
-    "453.148b0809.chunk.js.map": "/static/js/453.148b0809.chunk.js.map"
+    "main.cf4b7f52.css.map": "/static/css/main.cf4b7f52.css.map",
+    "main.9b8b7359.js.map": "/static/js/main.9b8b7359.js.map",
+    "453.bb828c5d.chunk.js.map": "/static/js/453.bb828c5d.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.f78a9b8a.css",
-    "static/js/main.3d953923.js"
+    "static/css/main.cf4b7f52.css",
+    "static/js/main.9b8b7359.js"
   ]
 }
