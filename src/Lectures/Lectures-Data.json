@@ -60,7 +60,7 @@
   },
   {
     "Date": "Oct 26",
-    "Topic": "Security in Machine Learning II: Differential Privacy & Crypto-Enhanced NNs",
+    "Topic": "Adversarial Machine Learning I",
     "Reading": "-",
     "Slides": "",
     "Quiz": "",
@@ -69,7 +69,7 @@
   },
   {
     "Date": "Nov 2",
-    "Topic": "Adversarial Machine Learning I: Poisoning Attacks & Evasion Attacks",
+    "Topic": "Adversarial Machine Learning II",
     "Reading": "-",
     "Slides": "",
     "Quiz": "",
@@ -78,7 +78,7 @@
   },
   {
     "Date": "Nov 9",
-    "Topic": "Adversarial Machine Learning II: Membership Inference Attacks & Model Inversion Attacks",
+    "Topic": "AI for Cyber Defense",
     "Reading": "-",
     "Slides": "",
     "Quiz": "",
@@ -87,7 +87,7 @@
   },
   {
     "Date": "Nov 16",
-    "Topic": "AI for Cyber Defense: Information-based Security, SIEM, Threat Detection",
+    "Topic": "AI for Cyber Attacks",
     "Reading": "-",
     "Slides": "",
     "Quiz": "",
@@ -96,7 +96,7 @@
   },
   {
     "Date": "Nov 23",
-    "Topic": "AI for Cyber Attacks: Data-Driven Brute-Force Attacks, GANs, Deepfakes",
+    "Topic": "Security Issues in AI Technologies I",
     "Reading": "-",
     "Slides": "",
     "Quiz": "",
@@ -105,7 +105,7 @@
   },
   {
     "Date": "Nov 30",
-    "Topic": "Security Issues in AI Technologies I: LLMs, Chatbots, Smart Speakers, Autonomous Cars",
+    "Topic": "Security Issues in AI Technologies II",
     "Reading": "-",
     "Slides": "",
     "Quiz": "",
@@ -114,7 +114,16 @@
   },
   {
     "Date": "Dec 7",
-    "Topic": "Security Issues in AI Technologies II: Super Intelligence, Types of Rationality, AI Safety, Alignment & Transparency",
+    "Topic": "Special Topic & Buffer (Reading period)",
+    "Reading": "-",
+    "Slides": "",
+    "Quiz": "",
+    "Recording": "",
+    "Homework": ""
+  },
+  {
+    "Date": "Dec 12",
+    "Topic": "Final Project Presentations (Exam period, assigned exam slot)",
     "Reading": "-",
     "Slides": "",
     "Quiz": "",
@@ -123,16 +132,7 @@
   },
   {
     "Date": "Dec 14",
-    "Topic": "Final Project Presentations (Reading Period)",
-    "Reading": "-",
-    "Slides": "",
-    "Quiz": "",
-    "Recording": "",
-    "Homework": ""
-  },
-  {
-    "Date": "Dec 21",
-    "Topic": "Final Project Presentations (Exam Period)",
+    "Topic": "Final Project Presentations (Exam period, class slot)",
     "Reading": "-",
     "Slides": "",
     "Quiz": "",
