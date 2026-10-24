@@ -38,6 +38,21 @@
     ]
   },
   {
+    "title": "Class Reading Set 2",
+    "released": true,
+    "linksActive": true,
+    "readings": [
+      {
+        "title": "Class Reading 4 - Class Reading 4 - Membership Inference Attacks Against ML Models",
+        "link": "https://drive.google.com/file/d/1P9DEsghNCLx9FckyNlRDfsePiDzaDviH/view?usp=sharing"
+      },
+      {
+        "title": "Class Reading 5 - Class Reading 5 - Poison Frogs Targetted Clean-Label Poisoning Attacks Against NNs",
+        "link": "https://drive.google.com/file/d/1vbxdW9TRhwndNTlHrdBju8xcB8dVG4Ut/view?usp=sharing"
+      }
+    ]
+  },
+  {
     "title": "Reading Set 2",
     "released": false,
     "linksActive": false,
