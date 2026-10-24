@@ -1,7 +1,7 @@
 [
   {
     "Date": "Sep 14",
-    "Topic": "Course Overview & Logistics: Big Picture – AI vs. Sec Chart",
+    "Topic": "Course Overview & Logistics: The Big Picture, AI vs. Security",
     "Reading": "https://brown-csci1640.github.io/#/resources",
     "ReadingLabel": "General Reading Set 1",
     "Slides": "https://drive.google.com/file/d/12iAwyzUCalUR2zYcosQJ-dQ7EOzQpw1a/view?usp=drive_link",
@@ -11,7 +11,7 @@
   },
   {
     "Date": "Sep 21",
-    "Topic": "Security and Crypto",
+    "Topic": "Security and Cryptography: Terms, Principles, Tools",
     "Reading": "https://brown-csci1640.github.io/#/resources",
     "ReadingLabel": "General Reading Set 1",
     "Slides": "https://drive.google.com/file/d/1jW3xGRmd03w33Gre2kmRg4QSR4ABBuJ2/view?usp=sharing",
@@ -21,7 +21,7 @@
   },
   {
     "Date": "Sep 28",
-    "Topic": "Crypto II",
+    "Topic": "Cryptography II: Practical Applications",
     "Reading": "https://drive.google.com/drive/folders/1Q4cYrbhirpVTqGy0OVfAjcXrG1He9ccg?usp=sharing",
     "ReadingLabel": "Class Reading 1",
     "Slides": "https://drive.google.com/file/d/1BrKXhTNpfAxFzZ0JZpZEPGxvC48Ul18f/view?usp=sharing",
@@ -31,7 +31,7 @@
   },
   {
     "Date": "Oct 5",
-    "Topic": "AI, ML and Security in ML",
+    "Topic": "AI, ML and Security in Machine Learning I",
     "Reading": "https://drive.google.com/drive/folders/1Q4cYrbhirpVTqGy0OVfAjcXrG1He9ccg?usp=sharing",
     "ReadingLabel": "Class Readings 2 & 3",
     "Slides": "https://drive.google.com/file/d/1R3UD-UoR35Q1f961soSEdpotQjiWWzpe/view?usp=sharing",
@@ -50,7 +50,7 @@
   },
   {
     "Date": "Oct 19",
-    "Topic": "Security in Machine Learning I: Outsourced ML, Federated Learning, MPC & Homomorphic Encryption",
+    "Topic": "Security in Machine Learning II: Outsourced ML, Federated Learning, MPC & Homomorphic Encryption",
     "Reading": "-",
     "Slides": "https://drive.google.com/file/d/1bLvto8_WVL-_H-kDntKvsgnN8Gq3IlqB/view?usp=sharing",
     "Quiz": "",
