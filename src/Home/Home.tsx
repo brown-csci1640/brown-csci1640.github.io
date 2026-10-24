@@ -60,7 +60,7 @@ export default function Home() {
               </a>
             </p>
             <br />
-            <p>Lectures: M 3-5:30pm ET, CIT 241</p>
+            <p>Lectures: M 3-5:30pm, CIT 241</p>
             <br />
             <p>
               Course Feedback: Fill out the{" "}
