@@ -42,8 +42,7 @@
   {
     "Date": "Oct 12",
     "Topic": "Indigenous Peoples’ Day – No class",
-    "Reading": "https://drive.google.com/drive/folders/1GtUT30SK96rOAFrG8_Ic8heIH5-vAgOB?usp=sharing",
-    "ReadingLabel": "Class Readings 3 & 4",
+    "Reading": "",
     "Slides": "",
     "Quiz": "",
     "Recording": "",
@@ -52,7 +51,8 @@
   {
     "Date": "Oct 19",
     "Topic": "Security in Machine Learning II: Data Privacy, Data Leakage, Differential Privacy",
-    "Reading": "-",
+    "Reading": "https://drive.google.com/drive/folders/1GtUT30SK96rOAFrG8_Ic8heIH5-vAgOB?usp=sharing",
+    "ReadingLabel": "Class Readings 4 & 5",
     "Slides": "https://drive.google.com/file/d/1bLvto8_WVL-_H-kDntKvsgnN8Gq3IlqB/view?usp=sharing",
     "Quiz": "",
     "Recording": "https://brown.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=9d9061d7-00d5-498f-85c5-b4d4001f26cf",
