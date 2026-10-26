@@ -43,12 +43,31 @@
     "linksActive": true,
     "readings": [
       {
-        "title": "Class Reading 4 - Class Reading 4 - Membership Inference Attacks Against ML Models",
+        "title": "Class Reading 4 - Membership Inference Attacks Against ML Models",
         "link": "https://drive.google.com/file/d/1P9DEsghNCLx9FckyNlRDfsePiDzaDviH/view?usp=sharing"
       },
       {
-        "title": "Class Reading 5 - Class Reading 5 - Poison Frogs Targetted Clean-Label Poisoning Attacks Against NNs",
+        "title": "Class Reading 5 - Poison Frogs Targetted Clean-Label Poisoning Attacks Against NNs",
         "link": "https://drive.google.com/file/d/1vbxdW9TRhwndNTlHrdBju8xcB8dVG4Ut/view?usp=sharing"
+      }
+    ]
+  },
+  {
+    "title": "General Reading Set 2",
+    "released": true,
+    "linksActive": true,
+    "readings": [
+      {
+        "title": "Delphi: A Cryptographic Inference Service for NNs",
+        "link": "https://drive.google.com/file/d/1E4EqDdKa2heGakabtRuSo6OsoTjuIonP/view?usp=sharing"
+      },
+      {
+        "title": "CrypTFlow2: Practical 2-Party Secure Inference",
+        "link": "https://drive.google.com/file/d/1hbcR26B4GauYhZwgN9FQa2Vy9mPUHv-Q/view?usp=sharing"
+      },
+      {
+        "title": "Private Hierarchical Clustering and Efficient Approximation",
+        "link": "https://drive.google.com/file/d/15dmFWuP7BYGGwJ5OUspB3vOeU4heMsv7/view?usp=sharing"
       }
     ]
   },
