@@ -14,13 +14,21 @@ interface Lec {
   ReadingLabel?: string;
   Slides: string;
   Quiz: string;
+  QuizLabel?: string;
   Recording: string;
   Homework: string;
 }
 
 export default function Lectures() {
   // Hidden Egg
-  const parseLectures = (lecture: Lec) => {
+  // Number lectures in order, skipping "No class" breaks
+  const isBreak = (lecture: Lec) => /no class/i.test(lecture.Topic);
+  let lectureCount = 0;
+  const lectureNumbers = LectureData.map((lecture: Lec) =>
+    isBreak(lecture) ? "-" : String(++lectureCount)
+  );
+
+  const parseLectures = (lecture: Lec, index: number) => {
 
     const slidesLink = lecture.Slides ? (
       <a href={lecture.Slides}>
@@ -41,6 +49,11 @@ export default function Lectures() {
         Quiz
       </a>
     ) : null;
+
+    const quizLabel =
+      lecture.Quiz && lecture.QuizLabel ? (
+        <div style={{ textAlign: "center" }}>{lecture.QuizLabel}</div>
+      ) : null;
 
     const recordingLink = lecture.Recording ? (
       <a href={lecture.Recording}>
@@ -78,7 +91,8 @@ export default function Lectures() {
     const assignments = [homework, quizLink].filter(Boolean);
 
     return (
-      <tr>
+      <tr key={index}>
+        <td>{lectureNumbers[index]}</td>
         <td>{lecture.Date}</td>
         <td>{lecture.Topic}</td>
         <td>{readings}</td>
@@ -97,6 +111,7 @@ export default function Lectures() {
               {assignment}
             </span>
           ))}
+          {quizLabel}
         </td>
       </tr>
     );
@@ -117,6 +132,7 @@ export default function Lectures() {
             <Table bordered>
               <thead>
                 <tr>
+                  <th>#</th>
                   <th>Date</th>
                   <th>Topic</th>
                   <th>Readings</th>

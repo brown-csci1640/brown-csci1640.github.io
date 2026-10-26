@@ -26,6 +26,7 @@
     "ReadingLabel": "Class Reading 1",
     "Slides": "https://drive.google.com/file/d/1BrKXhTNpfAxFzZ0JZpZEPGxvC48Ul18f/view?usp=sharing",
     "Quiz": "https://www.gradescope.com/courses/1399303/assignments/8778026/submissions/new",
+    "QuizLabel": "(Lectures 1, 2, 3)",
     "Recording": "",
     "Homework": ""
   },
@@ -63,7 +64,8 @@
     "Topic": "Adversarial Machine Learning I",
     "Reading": "-",
     "Slides": "https://drive.google.com/file/d/1tR70MNeuiQymT3Nh3yfaXgktpqwEmybW/view?usp=sharing",
-    "Quiz": "",
+    "Quiz": "https://www.gradescope.com/courses/1399303/assignments/8875070/submissions/new",
+    "QuizLabel": "(Lectures 5 & 6)",
     "Recording": "",
     "Homework": ""
   },
