@@ -77,20 +77,20 @@
     "linksActive": true,
     "readings": [
       {
-        "title": "Class Reading 6",
-        "link": ""
+        "title": "Class Reading 6 - Robust Physical-World Attacks on Deep Learning Visual Classification",
+        "link": "https://drive.google.com/file/d/1uALGUuyc7eZscV26yTa8fRYvoFSQ27UX/view?usp=sharing"
       },
       {
-        "title": "Class Reading 7",
-        "link": ""
+        "title": "Class Reading 7 - Sponge Examples",
+        "link": "https://drive.google.com/file/d/1Ep_CChX7XRfgph6FKAqkqwRT_xgL4e4q/view?usp=sharing"
       },
       {
-        "title": "Class Reading 8",
-        "link": ""
+        "title": "Class Reading 8 - Nightshade Prompt-Specific Poisoning Attacks on Text-to-Image Generative Models",
+        "link": "https://drive.google.com/file/d/1tDTT2UMBaWZicjwxAlgF6R8tY-sJsAtp/view?usp=sharing"
       },
       {
-        "title": "Class Reading 9",
-        "link": ""
+        "title": "Class Reading 9 - Adversarial EXExamples",
+        "link": "https://drive.google.com/file/d/1fnNUjpvtwOidAEAvfaGd3allQ1U5SVLn/view?usp=sharing"
       }
     ]
   },
