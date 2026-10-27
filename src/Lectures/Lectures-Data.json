@@ -63,7 +63,8 @@
   {
     "Date": "Oct 26",
     "Topic": "Adversarial Machine Learning I",
-    "Reading": "-",
+    "Reading": "https://brown-csci1640.github.io/#/resources",
+    "ReadingLabel": "General Reading 4-6",
     "Slides": "https://drive.google.com/file/d/1tR70MNeuiQymT3Nh3yfaXgktpqwEmybW/view?usp=sharing",
     "Quiz": "",
     "Recording": "https://brown.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=eca9d45b-1f36-44cf-8a27-b4d4001f26ec",
