@@ -62,7 +62,7 @@
   },
   {
     "Date": "Oct 26",
-    "Topic": "Security in ML III: MPC, Secure Clustering, Adversarial Machine Learning I: Membership Inference Attacks, Poisoning Attacks",
+    "Topic": "Security in ML III: MPC, Secure Clustering, Adversarial ML I: Membership Inference Attacks, Poisoning Attacks",
     "Reading": "https://brown-csci1640.github.io/#/resources",
     "ReadingLabel": "General 4-6",
     "Slides": "https://drive.google.com/file/d/1tR70MNeuiQymT3Nh3yfaXgktpqwEmybW/view?usp=sharing",
@@ -72,7 +72,7 @@
   },
   {
     "Date": "Nov 2",
-    "Topic": "Adversarial Machine Learning II",
+    "Topic": "Adversarial ML II",
     "Reading": "-",
     "Slides": "",
     "Quiz": "",
