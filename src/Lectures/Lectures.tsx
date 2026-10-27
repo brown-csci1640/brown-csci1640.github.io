@@ -63,19 +63,21 @@ export default function Lectures() {
       "Recording"
     );
 
+    // Multiple readings: comma-separate both Reading and ReadingLabel, in the same order
+    const readingLabels = lecture.ReadingLabel
+      ? lecture.ReadingLabel.split(",").map((label) => label.trim())
+      : [];
+
     const readings =
       lecture.Reading === "-"
         ? ["-"]
         : lecture.Reading.split(",").map((reading, idx) => (
-            <a
+            <div
               key={idx}
-              href={reading.trim()}
-              style={{
-                marginRight: "8px",
-              }}
+              style={{ marginTop: idx > 0 ? "8px" : 0, whiteSpace: "nowrap" }}
             >
-              {lecture.ReadingLabel || idx + 1}
-            </a>
+              <a href={reading.trim()}>{readingLabels[idx] || idx + 1}</a>
+            </div>
           ));
 
     const homework =
@@ -94,7 +96,7 @@ export default function Lectures() {
       <tr key={index}>
         <td>{lectureNumbers[index]}</td>
         <td>{lecture.Date}</td>
-        <td>{lecture.Topic}</td>
+        <td style={{ whiteSpace: "pre-line" }}>{lecture.Topic}</td>
         <td>{readings}</td>
         <td>
           {links.map((link, idx) => (

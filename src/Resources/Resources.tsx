@@ -1,5 +1,5 @@
 import React from "react";
-import { Container, Table } from "react-bootstrap";
+import { Col, Container, Row, Table } from "react-bootstrap";
 import square from "./squareIcon.png";
 import xicon from "./closeIcon.png";
 import "./Resources.css";
@@ -19,7 +19,18 @@ interface ReadingSet {
   readings: Reading[];
 }
 
-const readingSets = readingSetsData as ReadingSet[];
+const readingSets = (readingSetsData as ReadingSet[]).filter((set) => set.released);
+
+// Sets titled "General ..." go in the right column; everything else is a class reading.
+const isGeneral = (set: ReadingSet) => /^general/i.test(set.title);
+const classSets = readingSets.filter((set) => !isGeneral(set));
+const generalSets = readingSets.filter(isGeneral);
+
+const headingStyle: React.CSSProperties = {
+  textAlign: "center",
+  fontFamily: "'Fira Code', 'Consolas', 'Courier New', monospace",
+  fontWeight: "bold",
+};
 
 const readingStyle: React.CSSProperties = {
   marginRight: "8px",
@@ -45,6 +56,30 @@ export default function Resources() {
       </span>
     );
 
+  const renderColumn = (heading: string, sets: ReadingSet[]) => (
+    <Table bordered>
+      <thead>
+        <tr>
+          <th style={headingStyle}>{heading}</th>
+        </tr>
+      </thead>
+      <tbody>
+        {sets.map((set, setIdx) => (
+          <React.Fragment key={setIdx}>
+            <tr id={set.title.toLowerCase().replace(/\s+/g, "-")}>
+              <td style={headingStyle}>{set.title}</td>
+            </tr>
+            {set.readings.map((reading, readingIdx) => (
+              <tr key={readingIdx}>
+                <td>{renderReading(reading, set.linksActive, readingIdx)}</td>
+              </tr>
+            ))}
+          </React.Fragment>
+        ))}
+      </tbody>
+    </Table>
+  );
+
   return (
     <div className="resources">
       <h3>Weekly Readings</h3>
@@ -55,33 +90,10 @@ export default function Resources() {
         </div>
         <div className="terminal-inside">
           <Container>
-            <Table bordered>
-              <tbody>
-                {readingSets
-                  .filter((set) => set.released)
-                  .map((set, setIdx) => (
-                    <React.Fragment key={setIdx}>
-                      <tr id={set.title.toLowerCase().replace(/\s+/g, "-")}>
-                        <td
-                          style={{
-                            textAlign: "center",
-                            fontFamily:
-                              "'Fira Code', 'Consolas', 'Courier New', monospace",
-                            fontWeight: "bold",
-                          }}
-                        >
-                          {set.title}
-                        </td>
-                      </tr>
-                      {set.readings.map((reading, readingIdx) => (
-                        <tr key={readingIdx}>
-                          <td>{renderReading(reading, set.linksActive, readingIdx)}</td>
-                        </tr>
-                      ))}
-                    </React.Fragment>
-                  ))}
-              </tbody>
-            </Table>
+            <Row>
+              <Col md={6}>{renderColumn("Class Readings", classSets)}</Col>
+              <Col md={6}>{renderColumn("General Readings", generalSets)}</Col>
+            </Row>
           </Container>
         </div>
       </div>

@@ -30,6 +30,8 @@
   height: auto;
   overflow-y: scroll;
   width: 78vw;
+  /* white behind the two reading columns, so the gutter and uneven column heights don't show dark */
+  background-color: white;
 }
 
 .resources a {
