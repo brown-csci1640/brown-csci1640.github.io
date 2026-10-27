@@ -17,6 +17,7 @@ interface Lec {
   QuizLabel?: string;
   Recording: string;
   Homework: string;
+  HomeworkLabel?: string;
 }
 
 export default function Lectures() {
@@ -85,7 +86,7 @@ export default function Lectures() {
         <a
           href={lecture.Homework}
         >
-          HW
+          {lecture.HomeworkLabel || "HW"}
         </a>
       ) : null;
 

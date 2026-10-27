@@ -63,18 +63,19 @@
   {
     "Date": "Oct 26",
     "Topic": "Security in ML III: MPC, Secure Clustering,\nAdversarial ML I: Membership Inference Attacks, Poisoning Attacks",
-    "Reading": "https://drive.google.com/drive/folders/17pyxEloSU_yKJQ-KOx6vSDTRPrZuT5fO?usp=sharing",
-    "ReadingLabel": "Class 6-7",
+    "Reading": "https://drive.google.com/drive/folders/17pyxEloSU_yKJQ-KOx6vSDTRPrZuT5fO?usp=sharing, https://brown-csci1640.github.io/#/resources",
+    "ReadingLabel": "Class 6-7, General 4-6",
     "Slides": "https://drive.google.com/file/d/1oBaRYwNfiIFuvFqCW8q3eLBbCrN_vUCV/view?usp=sharing",
     "Quiz": "",
     "Recording": "https://brown.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=eca9d45b-1f36-44cf-8a27-b4d4001f26ec",
-    "Homework": ""
+    "Homework": "https://docs.google.com/forms/d/e/1FAIpQLSeYVehGBB6fLxg4oblWEa6frSMC3DfbWVJSLWFp3DZSj_M6Wg/viewform",
+    "HomeworkLabel": "Final Project Proposal Form"
   },
   {
     "Date": "Nov 2",
     "Topic": "Adversarial ML II",
-    "Reading": "https://drive.google.com/drive/folders/17pyxEloSU_yKJQ-KOx6vSDTRPrZuT5fO?usp=sharing, https://brown-csci1640.github.io/#/resources",
-    "ReadingLabel": "Class 7-8, General 4-6",
+    "Reading": "https://drive.google.com/drive/folders/17pyxEloSU_yKJQ-KOx6vSDTRPrZuT5fO?usp=sharing",
+    "ReadingLabel": "Class 7-8",
     "Slides": "",
     "Quiz": "",
     "Recording": "",
