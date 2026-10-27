@@ -72,6 +72,29 @@
     ]
   },
   {
+    "title": "Class Readings 6-9",
+    "released": true,
+    "linksActive": true,
+    "readings": [
+      {
+        "title": "Class Reading 6",
+        "link": ""
+      },
+      {
+        "title": "Class Reading 7",
+        "link": ""
+      }
+      {
+        "title": "Class Reading 8",
+        "link": ""
+      }
+      {
+        "title": "Class Reading 9",
+        "link": ""
+      }
+    ]
+  },
+  {
     "title": "Reading Set 2",
     "released": false,
     "linksActive": false,
