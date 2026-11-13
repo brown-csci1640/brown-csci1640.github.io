@@ -72,6 +72,21 @@
     ]
   },
   {
+    "title": "General Readings 7-9",
+    "released": true,
+    "linksActive": true,
+    "readings": [
+      {
+        "title": "Reimagining Cybersecurity in the Era of AI and Quantum",
+        "link": "https://www.technologyreview.com/2025/11/10/1127774/reimagining-cybersecurity-in-the-era-of-ai-and-quantum/"
+      },
+      {
+        "title": "Darktrace's Cyber AI Analyst in Action: 4 Real-World Investigations into Advanced Threat Actors",
+        "link": "https://www.darktrace.com/blog/darktraces-cyber-ai-analyst-in-action-4-real-world-investigations-into-advanced-threat-actors"
+      }
+    ]
+  },
+  {
     "title": "Class Readings 6-9",
     "released": true,
     "linksActive": true,
