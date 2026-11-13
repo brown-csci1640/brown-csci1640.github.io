@@ -65,7 +65,7 @@ export default function Home() {
             <p>
               Course Feedback: Fill out the{" "}
               <a
-                href="https://forms.gle/KSb8Z4GnhNuL6AJU6"
+                href="https://docs.google.com/forms/d/e/1FAIpQLScyor7WrwOhJc5juLKL25twqw68yFjplheMFm4EkXAE8WCcnw/viewform"
                 target="_blank"
                 rel="noreferrer"
               >

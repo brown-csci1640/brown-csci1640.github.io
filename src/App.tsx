@@ -57,6 +57,13 @@ function App() {
               <LinkContainer to="/resources">
                 <Nav.Link href="/resources">Resources</Nav.Link>
               </LinkContainer>
+              <Nav.Link
+                href="https://docs.google.com/forms/d/e/1FAIpQLScyor7WrwOhJc5juLKL25twqw68yFjplheMFm4EkXAE8WCcnw/viewform"
+                target="_blank"
+                rel="noreferrer"
+              >
+                Feedback Form
+              </Nav.Link>
             </Nav>
           </Navbar.Collapse>
         </Container>
